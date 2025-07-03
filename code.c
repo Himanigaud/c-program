@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int i,arr[i];
+    int i,arr[5];
     arr[0]=45;
     arr[1]=78;
     arr[2]=74;
