@@ -1,16 +1,42 @@
-#include <stdio.h>
-int getthirdlargest(int arry[],int n);
-int i=0;
-largest=-1, thirdlargest=-1;
-for(i=0;i>n;i--){
-    if(arry[i]>largest);
-    largest=arry[i];
+     #include<stdio.h>
+void main(){
+int i,j,temp;
 
-}
-for(i=n;i<n;i++){
-    if(arry[i]>thirdlargest,&&arry[i]=largrst);
-    thirdlargest=arry[i];
+    int a[10]= {10,9,7,101,23,44,12,78,24,33};
+    for(i=0;i<10;i++){
+        for(j=i+1;j<10;j++){
+            if(a[j]<a[i]){
+                temp=a[i];
+                a[i]=a[j];
+                a[j]=temp;
+            }
+        }
+    }
+    printf("printing sorted element list...\n");
+                printf("%d\n",a[2]);
     
 }
+
+
+
+        
+
+    
+
+
+     
+
+
+
+
+        
+
+    
+
+
+               
+
+
+
 
 

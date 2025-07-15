@@ -1,6 +1,7 @@
-#include <stdio.h>
+     #include<stdio.h>
 void main(){
-    int i,j,temp;
+int i,j,temp;
+
     int a[10]= {10,9,7,101,23,44,12,78,24,33};
     for(i=0;i<10;i++){
         for(j=i+1;j<10;j++){
